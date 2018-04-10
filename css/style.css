@@ -1,0 +1,372 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Ultra', serif;
+}
+a{
+    font-family: 'Ultra', serif;
+    font-size: 16px;   
+}
+h1{
+
+    font-family: 'Rammetto One', cursive;
+    font-size: 50px;
+
+}
+
+.polaroid {
+  box-shadow: 10px 10px 5px grey;
+}
+.polaroidd {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.jumbotronn
+{
+    margin-bottom: 0px;
+}
+p
+{
+    font-family: 'PT Serif', serif;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../pics/lead-bg.jpg");
+
+  
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lead{
+
+    color: white;
+    text-align: center;
+   
+}
+.fill-screen{
+    background-size: cover;
+}
+.container-fluid
+{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.title{
+position: relative;
+}
+.brdr {
+    border-style: solid;
+    border-color: green;
+    border-radius: 20px;
+
+    padding: 10px;
+    margin-right:10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.highlightg
+{
+   background-color: #89f441;
+
+}
+.highlighto
+{
+   background-color: #f4eb41;
+}
+.highlightb
+{
+   background-color: #57f9f1;
+}
+
+.footer-social-icons {
+    width: 350px;
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-google-plus {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-google-plus:hover {
+    background-color: #e25714;
+}
+.fa-github {
+    
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover {
+    background-color: #000000;
+}
+.fa-instagram {
+    
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-instagram:hover {
+    background-color: #FFC0CB;
+}
+
+.hire
+{
+    background-color: #3c3d41;
+    padding: 30px;
+    color: white;
+    margin-bottom: 30px;
+    
+}
+#myFooter {
+    background-color: #3c3d41;
+    color: white;
+    padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 30px;
+}
+
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .google:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    
+    line-height: 25px;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+.topnav {
+  overflow: hidden;
+  background-color: #2e3030;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+ 
+}
+
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+
+
+
+
